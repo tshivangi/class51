@@ -1,0 +1,41 @@
+
+            h1 {
+                color: brown;
+            }
+
+            * {
+                border: solid;
+            }
+            .grid{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            .footer{
+                display:flex;
+                justify-content: flex-end;
+                background-color: cyan;
+            }
+
+            body{
+                background-color:#808080;
+            }
+
+            .header{
+                display:flex;
+                flex-direction: column;
+                background-color: blueviolet;
+                animation-name:animetion1 ;
+                animation-duration:4s;
+                animation-iteration-count: infinite;
+            }
+            .pname{
+                text-align: center;
+            }
+            @keyframes animetion1{
+                from{background-color: darkmagenta;}
+                to{background-color: darkred;}
+            }
+
+            
